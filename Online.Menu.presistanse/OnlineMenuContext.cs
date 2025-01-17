@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Online.Menu.Core.Models;
 
-namespace Online.Menu.presistance
+namespace Online.Menu.presistance;
+
+public class OnlineMenuContext(DbContextOptions options) : DbContext(options)
 {
-    internal class OnlineMenuContext
-    {
-    }
+    public DbSet<ItemModel> ItemModels { get; set; }
 }
