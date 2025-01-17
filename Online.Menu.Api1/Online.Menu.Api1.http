@@ -1,0 +1,6 @@
+@Online.Menu.Api1_HostAddress = http://localhost:5171
+
+GET {{Online.Menu.Api1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
