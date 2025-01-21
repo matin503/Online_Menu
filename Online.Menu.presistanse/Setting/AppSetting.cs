@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Online.Menu.presistance.Setting;
 
-namespace Online.Menu.presistance.Setting
+internal static class AppSettings
 {
-    internal class AppSetting
-    {
-    }
+    public static string ConnectionString { get; set; }
 }

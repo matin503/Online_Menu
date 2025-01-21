@@ -11,10 +11,7 @@ public class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
-        builder.Services.AddDbContext<OnlineMenuContext>(option =>
-        {
-            option.UseSqlServer(builder.Configuration.GetConnectionString("OnlineMenuConectinString"));
-        });
+        
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
