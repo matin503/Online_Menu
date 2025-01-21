@@ -3,7 +3,20 @@ using Online.Menu.Core.Models;
 
 namespace Online.Menu.presistance;
 
-public class OnlineMenuContext(DbContextOptions options) : DbContext(options)
+internal partial class OnlineMenuContext(DbContextOptions<OnlineMenuContext> options) : DbContext(options)
 {
-    public DbSet<ItemModel> ItemModels { get; set; }
+    public virtual DbSet<ItemModel> ItemModels { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+       optionsBuilder.EnableSensitiveDataLogging();
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<ItemModel>(entity =>
+        {
+            entity.ToTable("Item");
+        });
+    }
 }

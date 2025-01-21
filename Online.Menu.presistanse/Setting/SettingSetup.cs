@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Commons;
 
-namespace Online.Menu.presistance.Setting
+namespace Online.Menu.presistance.Setting;
+
+internal static class SettingSetup
 {
-    internal class SettingSetup
+    public static void AddSettings()
     {
+        AppSettings.ConnectionString = SettingCommon.GetSetting<String>("ConnectionStrings");
     }
 }
