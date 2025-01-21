@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiResponses;
+namespace Online.Menu.InfraStructure.Framework.ApiResponses;
 
 public static class ApiResponseFactory
 {

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online.Menu.Core", "Online.Menu.Core\Online.Menu.Core.csproj", "{62218B89-8A23-47C3-BE0A-DCC8672F146C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online.Menu.Infrastructure", "Online.Menu.Infrastructure\Online.Menu.Infrastructure.csproj", "{703B7C10-812F-4452-9604-C3AED6C82872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online.Menu.InfraStructure", "Online.Menu.Infrastructure\Online.Menu.InfraStructure.csproj", "{703B7C10-812F-4452-9604-C3AED6C82872}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online.Menu.presistance", "Online.Menu.presistanse\Online.Menu.presistance.csproj", "{423F19C6-4108-4DA4-BD2D-7981A4A3209F}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online.Menu.Domain", "Onlin
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Online.Menu.Databases", "Online.Menu.Databases\Online.Menu.Databases.sqlproj", "{EDAB9023-B82F-4544-9400-0998A46E759F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online.Menu.Api1", "Online.Menu.Api1\Online.Menu.Api1.csproj", "{6066F754-CD0C-42F8-AA6E-AC15D5525D59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Online.Menu.Api1", "Online.Menu.Api1\Online.Menu.Api1.csproj", "{6066F754-CD0C-42F8-AA6E-AC15D5525D59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

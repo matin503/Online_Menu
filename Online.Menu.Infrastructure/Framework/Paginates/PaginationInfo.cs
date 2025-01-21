@@ -1,4 +1,4 @@
-﻿namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Paginates;
+﻿namespace Online.Menu.InfraStructure.Framework.Paginates;
 
 public class PaginationInfo
 {

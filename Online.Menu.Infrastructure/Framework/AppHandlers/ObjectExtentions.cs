@@ -1,4 +1,4 @@
-﻿namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.AppHandlers;
+﻿namespace Online.Menu.InfraStructure.Framework.AppHandlers;
 
 public static class ObjectExtentions
 {

@@ -1,4 +1,4 @@
-﻿namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.SearchExpress;
+﻿namespace Online.Menu.InfraStructure.Framework.SearchExpress;
 
 public enum LogicalOperation
 {

@@ -1,7 +1,7 @@
-﻿using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.AppHandlers;
-using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Extensions;
+﻿using Online.Menu.InfraStructure.Framework.AppHandlers;
+using Online.Menu.InfraStructure.Framework.Extensions;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiResponses;
+namespace Online.Menu.InfraStructure.Framework.ApiResponses;
 
 public static class ResponsePaginationExtentions
 {

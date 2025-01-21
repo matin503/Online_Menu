@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiResponses;
+namespace Online.Menu.InfraStructure.Framework.ApiResponses;
 
 public class ApiResponsePagination : IApiResponsePagination
 {

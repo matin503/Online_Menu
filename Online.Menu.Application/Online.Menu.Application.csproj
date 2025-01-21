@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Online.Menu.Domain\Online.Menu.Domain.csproj" />
-    <ProjectReference Include="..\Online.Menu.Infrastructure\Online.Menu.Infrastructure.csproj" />
+    <ProjectReference Include="..\Online.Menu.Infrastructure\Online.Menu.InfraStructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

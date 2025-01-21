@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.AppHandlers;
+namespace SOnline.Menu.InfraStructure.Framework.AppHandlers;
 
 public interface IHandler<TParam> : IRequestHandler<TParam> where TParam : IRequest
 {

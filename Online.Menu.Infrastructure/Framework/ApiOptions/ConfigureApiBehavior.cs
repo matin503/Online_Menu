@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiResponses;
+using Online.Menu.InfraStructure.Framework.ApiResponses;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiOptions;
+namespace Online.Menu.InfraStructure.FrameWork.ApiOptions;
 
 public static class ConfigureApiBehavior
 {

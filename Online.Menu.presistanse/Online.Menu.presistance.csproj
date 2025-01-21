@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Online.Menu.Core\Online.Menu.Core.csproj" />
-    <ProjectReference Include="..\Online.Menu.Infrastructure\Online.Menu.Infrastructure.csproj" />
+    <ProjectReference Include="..\Online.Menu.Infrastructure\Online.Menu.InfraStructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

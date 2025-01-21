@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Mediators;
+namespace Online.Menu.InfraStructure.Framework.Mediators;
 
 internal class MediatorFacade(IServiceScopeFactory serviceScopeFactory) : IMediatorFacade
 {

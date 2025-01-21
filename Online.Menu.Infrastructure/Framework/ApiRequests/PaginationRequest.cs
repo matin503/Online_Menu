@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiRequests;
+namespace Online.Menu.InfraStructure.InfraStracture.Framework.ApiRequests;
 
 public class PaginationRequest
 {

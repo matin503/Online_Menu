@@ -5,7 +5,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiSwagger;
+namespace Online.Menu.InfraStructure.Framework.ApiSwagger;
 
 public static class SwaggerConfigSetup
 {

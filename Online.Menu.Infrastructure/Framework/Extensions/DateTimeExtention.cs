@@ -1,6 +1,6 @@
-﻿using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Commons;
+﻿using Online.Menu.InfraStructure.Framework.Commons;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Extensions;
+namespace Online.Menu.InfraStructure.Framework.Extensions;
 
 public static class DateTimeExtention
 {

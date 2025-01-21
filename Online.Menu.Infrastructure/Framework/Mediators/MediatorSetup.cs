@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Mediators;
+namespace Online.Menu.InfraStructure.Framework.Mediators;
 
 public static class MediatorSetup
 {

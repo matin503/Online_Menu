@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Mediators;
+namespace Online.Menu.InfraStructure.Framework.Mediators;
 
 internal class MediatorService(IMediator _mediator) : IMediatorService
 {

@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.SearchExpress;
+namespace Online.Menu.InfraStructure.Framework.SearchExpress;
 
 public class FilterCriterion<T>
 {

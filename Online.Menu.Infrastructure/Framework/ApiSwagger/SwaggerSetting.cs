@@ -1,4 +1,4 @@
-﻿namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiSwagger;
+﻿namespace Online.Menu.InfraStructure.Framework.ApiSwagger;
 
 public class SwaggerSetting
 {
