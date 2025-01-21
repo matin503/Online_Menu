@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Online.Menu.presistance;
 
-namespace Online.Menu.Domain
+namespace Online.Menu.Domain;
+
+public static class DomainSetup
 {
-    internal class DomainSetup
+    public static void AddDomainServices(this IServiceCollection services)
     {
+        typeof(AbaseLogic)
+            .Assembly
+            .DefinedTypes
+            .Where(dmn => !dmn.IsAbstract && dmn.IsSubclassOf(typeof(AbaseLogic)))
+            .ToList()
+            .ForEach(dmn =>
+            {
+                var idmn = dmn.GetInterface($"I{dmn.Name}");
+                services.AddTransient(idmn, dmn);
+            });
+        services.AddPersistance();
     }
 }

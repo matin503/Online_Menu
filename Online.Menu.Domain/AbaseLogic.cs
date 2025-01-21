@@ -1,7 +1,6 @@
 ﻿namespace Online.Menu.Domain
 {
-    public class AbaseLogic
+    public abstract class AbaseLogic
     {
-
     }
 }
