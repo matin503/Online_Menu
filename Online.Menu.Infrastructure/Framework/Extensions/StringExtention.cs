@@ -1,4 +1,4 @@
-﻿namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Extensions;
+﻿namespace Online.Menu.InfraStructure.Framework.Extensions;
 
 public static class StringExtention
 {

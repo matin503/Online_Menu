@@ -1,4 +1,4 @@
-﻿namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.AppModels;
+﻿namespace Online.Menu.InfraStructure.Framework.AppModels;
 
 public class PaginationModel
 {

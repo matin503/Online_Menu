@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Commons;
+namespace Online.Menu.InfraStructure.Framework.Commons;
 
 public class SettingCommon
 {

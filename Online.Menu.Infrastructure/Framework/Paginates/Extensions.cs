@@ -1,6 +1,6 @@
-﻿using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.AppModels;
+﻿using Online.Menu.InfraStructure.Framework.AppModels;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.Paginates;
+namespace Online.Menu.InfraStructure.Paginates;
 
 public static class Extensions
 {

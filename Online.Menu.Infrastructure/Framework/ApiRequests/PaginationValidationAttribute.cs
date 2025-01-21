@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
-using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiResponses;
+using Online.Menu.InfraStructure.Framework.ApiResponses;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.ApiRequests;
+namespace Online.Menu.InfraStructure.InfraStracture.Framework.ApiRequests;
 
 public class PaginationValidationAttribute(UInt16 maxPageNo = UInt16.MaxValue, UInt16 maxPageSize = UInt16.MaxValue) : ActionFilterAttribute
 {

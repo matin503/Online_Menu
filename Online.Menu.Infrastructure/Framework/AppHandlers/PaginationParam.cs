@@ -1,6 +1,6 @@
-﻿using Sanpad.Chmlu.MiningLab.InfraStracture.Framework.AppModels;
+﻿using Online.Menu.InfraStructure.Framework.AppModels;
 
-namespace Sanpad.Chmlu.MiningLab.InfraStracture.Framework.AppHandlers;
+namespace Online.Menu.InfraStructure.Framework.AppHandlers;
 
 public class PaginationParam
 {
