@@ -7,13 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.10" />
+    <PackageReference Include="Scalar.AspNetCore" Version="1.2.37" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Online.Menu.Application\Online.Menu.Application.csproj" />
     <ProjectReference Include="..\Online.Menu.Infrastructure\Online.Menu.InfraStructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Request\" />
   </ItemGroup>
 
 </Project>

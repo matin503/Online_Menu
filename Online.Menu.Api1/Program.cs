@@ -1,37 +1,42 @@
-using Microsoft.EntityFrameworkCore;
-using Online.Menu.presistance;
-namespace Online.Menu.Api1;
+using Online.Menu.InfraStructure.Framework.Commons;
+using Online.Menu.InfraStructure.Framework.ApiOptions;
+using Online.Menu.Application;
+using Scalar.AspNetCore;
 
-public class Program
+
+
+var builder = WebApplication.CreateBuilder(args);
+
+var services = builder.Services;
+
+SettingCommon.AddJsonSettingFilesConfiguration();
+
+services.AddControllers()
+    .AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null)
+    .ConfigureApiBehaviorOptions(options => options.InvalidResponseFactory())
+    .AddNewtonsoftJson();
+
+
+services.AddResponseCompression();
+
+services.AddApplicationServices(typeof(Program).Assembly);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
 {
-    public static void Main(string[] args)
-    {
-        var builder = WebApplication.CreateBuilder(args);
+    app.UseSwagger();
 
-        // Add services to the container.
+    app.UseSwaggerUI();
 
-        builder.Services.AddControllers();
-        
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
-
-        var app = builder.Build();
-
-        // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-        }
-
-        app.UseHttpsRedirection();
-
-        app.UseAuthorization();
-
-
-        app.MapControllers();
-
-        app.Run();
-    }
+    app.MapScalarApiReference();
 }
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

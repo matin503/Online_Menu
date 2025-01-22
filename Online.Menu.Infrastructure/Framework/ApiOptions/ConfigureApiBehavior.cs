@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Online.Menu.InfraStructure.Framework.ApiResponses;
 
-namespace Online.Menu.InfraStructure.FrameWork.ApiOptions;
+namespace Online.Menu.InfraStructure.Framework.ApiOptions;
 
 public static class ConfigureApiBehavior
 {
