@@ -5,7 +5,7 @@ namespace Online.Menu.presistance;
 
 internal partial class OnlineMenuContext(DbContextOptions<OnlineMenuContext> options) : DbContext(options)
 {
-    public virtual DbSet<ItemModel> ItemModels { get; set; }
+    public virtual DbSet<ItemModel> Items { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
