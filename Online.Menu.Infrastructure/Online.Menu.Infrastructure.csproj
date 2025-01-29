@@ -21,8 +21,4 @@
     <ProjectReference Include="..\Online.Menu.Core\Online.Menu.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
 </Project>

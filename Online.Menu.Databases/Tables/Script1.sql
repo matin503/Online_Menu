@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Item] (
+[Id]			INT NOT NULL,
+[Title]			NCHAR (10)	NULL,
+[Description]	NCHAR (10)	NULL,
+[BuildTime]		DATETIME	NULL,
+[UpdateTime]	DATETIME	NULL,
+CONSTRAINT [PK-Item] PRIMARY KEY CLUSTERED ([Id] ASC)
+);

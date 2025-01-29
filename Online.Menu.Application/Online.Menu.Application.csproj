@@ -11,8 +11,4 @@
     <ProjectReference Include="..\Online.Menu.Infrastructure\Online.Menu.InfraStructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Components\" />
-  </ItemGroup>
-
 </Project>

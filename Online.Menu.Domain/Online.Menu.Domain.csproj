@@ -11,8 +11,4 @@
     <ProjectReference Include="..\Online.Menu.presistanse\Online.Menu.presistance.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="LogicServices\" />
-  </ItemGroup>
-
 </Project>
